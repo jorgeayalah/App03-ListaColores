@@ -8,21 +8,24 @@
 import SwiftUI
 
 struct ColorView: View {
+    var text: String
     var body: some View {
+        
         NavigationLink(
             
             destination: ColorDetailView(),
             label: {
-                Text("Ir al detalle del color")
+                Text(text)
             }
         )
         .navigationBarTitle("Color", displayMode: .inline)
+        .navigationBarColor(UIColor(.blue), UIColor.white)
         
     }
 }
 
 struct ColorView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorView()
+        ColorView(text: "Hola")
     }
 }
