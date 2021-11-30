@@ -92,6 +92,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		5D5A05B22756DE6A009FE1AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7723A2755995600BAA707 /* ListView.swift */,
+				5DA7726B27559C6B00BAA707 /* ColorDetailView.swift */,
+				5DA7726627559BA100BAA707 /* ColorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5DA7722C2755995600BAA707 = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				5DA772382755995600BAA707 /* App03_ListaColoresApp.swift */,
-				5DA7723A2755995600BAA707 /* ListView.swift */,
+				5D5A05B22756DE6A009FE1AC /* Views */,
 				5D5A05992755E2D5009FE1AC /* Colors.xcassets */,
 				5D5A059E2755E398009FE1AC /* Color.swift */,
 				5D5A05A82756D6C3009FE1AC /* Models */,
-				5DA7726B27559C6B00BAA707 /* ColorDetailView.swift */,
 				5DA7727027559E1700BAA707 /* CustomNavigationBar.swift */,
-				5DA7726627559BA100BAA707 /* ColorView.swift */,
 				5DA7723C2755996800BAA707 /* Assets.xcassets */,
 				5DA772412755996800BAA707 /* Info.plist */,
 				5DA7723E2755996800BAA707 /* Preview Content */,

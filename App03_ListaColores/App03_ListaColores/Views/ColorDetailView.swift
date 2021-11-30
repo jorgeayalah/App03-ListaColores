@@ -11,7 +11,7 @@ struct ColorDetailView: View {
     var body: some View {
         Text("Detalle del color")
             .navigationBarTitle("Detalle Color", displayMode: .inline)
-            .navigationBarColor(UIColor(.blue), UIColor.white)
+            .navigationBarColor(UIColor(.black), UIColor.white)
     }
 }
 
